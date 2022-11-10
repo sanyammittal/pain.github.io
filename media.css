@@ -1,0 +1,137 @@
+/* TABLETS */
+@media screen and (max-width:992px) {
+    .header .brand,.mq-header .brand {
+        display: none;
+    }
+
+    .header .bars,.mq-header .bars {
+        display: inline-block;
+    }
+
+    .header .about,.mq-header .about {
+        display: none;
+    }
+
+    .sec-3 .more {
+        display: inline-block;
+    }
+
+    .sec-3 .l1 {
+        display: none;
+    }
+}
+
+/* LARGE-PHONES */
+
+@media screen and (max-width:768px) {
+    .sec-2 img {
+        width: 200px;
+    }
+
+    .sec-2 .deco {
+        width: 150px;
+        height: 300px;
+    }
+
+    .sec-2 .p3 {
+        display: none;
+    }
+
+    .sec-5 .boxes {
+        grid-template-columns: auto auto;
+    }
+
+    .sec-7 .comment-1 {
+        display: none;
+    }
+
+    .sec-8 .box {
+        flex-flow: column;
+    }
+
+    .sec-8 .box-1 {
+        margin-top: 20px;
+    }
+
+    footer .box-1 {
+        margin-left: 20px;
+    }
+
+    footer .box,
+    footer .box-1 {
+        width: 140px;
+    }
+
+    .pm1 {
+        display: none;
+    }
+
+    .pm2 {
+        display: inline-block;
+    }
+}
+
+/* PHONES  */
+
+@media screen and (max-width:600px) {
+    .sec-1 {
+        flex-flow: column-reverse;
+    }
+
+    .sec-2 .inner-sec2 {
+        flex-flow: column-reverse;
+    }
+
+    .sec-1 .deco {
+        display: none;
+    }
+
+    .sec-1 .right {
+        background-color: red;
+    }
+
+    .sec-1 .left {
+        margin-top: -10px;
+        width: 90%;
+    }
+
+    .sec-1 .right {
+        top: 100px;
+    }
+
+    .sec-1 img {
+        width: 100px;
+        left: 300px;
+        top: -120px;
+        left: 70%;
+    }
+
+    .sec-2 {
+        margin-top: 50px;
+    }
+
+    .sec-2 .left {
+        margin-left: 100px;
+    }
+
+    .sec-3 {
+        margin-top: 500px;
+    }
+
+    .sec-6 {
+        display: none;
+    }
+
+    .sec-9 .box {
+        flex-direction: column-reverse;
+    }
+
+    .sec-9 .right {
+        width: 80%;
+    }
+
+    .sec-9 .left {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}

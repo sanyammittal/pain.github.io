@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css" media="all">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="icon" href="./images/download.png">
+    <title>Pain website</title>
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <nav class="header">
+        <div class="inner-header">
+            <div class="logo float-l pointer">
+                <div class="icon inline-block bold">P</div>
+                <p class="p1 inline-block bold">PAIN</p>
+            </div>
+            <div class="about float-l pointer">
+                <ul>
+                    <li class="inline-block bold">HOME</li>
+                    <li class="inline-block bold">ABOUT</li>
+                    <li class="inline-block bold">FORTFOLIO</li>
+                    <li class="inline-block bold">BLOG</li>
+                    <li class="inline-block bold">SERVICES</li>
+                    <li class="inline-block bold">CONTACT</li>
+                </ul>
+            </div>
+            <div class="brand float-r pointer">
+                <ul>
+                    <li class="inline-block"><i class="fa-brands fa-facebook-f"></i></li>
+                    <li class="inline-block"><i class="fa-brands fa-twitter"></i></li>
+                    <li class="inline-block"><i class="fa-brands fa-linkedin-in"></i></li>
+                    <li class="inline-block"><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="bars float-r absolute invisible pointer" onclick="shownav()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- section-1 -->
+
+    <section class="sec-1 flex">
+        <div class="left">
+            <p class="p1">HELLO, MY NAME IS</p>
+            <h1>RORY MACCANN</h1>
+            <p class="p2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime nihil rerum numquam magnam sunt,
+                assumenda excepturi sed nemo asperiores odio, quasi unde quae soluta veniam, corporis temporibus sit
+                delectus rem!
+            </p>
+            <input type="button" value="MY WORK" class="header-btn1 btn-1 bold">
+            <input type="button" value="HERE ME" class="header-btn2 btn-1 bold">
+        </div>
+        <div class="right relative">
+            <div class="deco float-r absolute"></div>
+            <img src="./images/e8f0c35dda1194f5dbb6182739fe936a.jpg" class="absolute pointer">
+        </div>
+    </section>
+
+    <!-- section-2 -->
+
+    <section class="sec-2">
+        <h1>ABOUT ME</h1>
+        <hr>
+        <p class="p1">
+            A LEAD UX & UI DESIGNER BASED IN CANADA
+        </p>
+        <div class="inner-sec2 flex">
+            <div class="left relative">
+                <div class="deco absolute"></div>
+                <img src="./images/images.jpeg" class="absolute pointer">
+            </div>
+            <div class="right">
+                <h2>I'M RORY MCANN</h2>
+                <p class="p1">
+                    A LEAD UX & UI DESIGNER BASED IN CANADA
+                </p>
+                <p class="p2">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam nesciunt blanditiis delectus
+                    voluptatum repellendus harum inventore earum, omnis alias, quasi eaque reiciendis libero repellat
+                    eligendi sed minus eos accusantium ipsam?
+                </p>
+                <p class="p3">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis non soluta dolorem totam repellat
+                    alias hic corporis at voluptatibus excepturi. Praesentium omnis illum reiciendis magni quisquam
+                    necessitatibus, autem sunt quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quasi
+                    ad illo harum qui at possimus! Earum, assumenda, ipsam iure eum accusantium veritatis ad beatae, qui
+                    temporibus natus ex ullam.
+                </p>
+                <input type="button" value="DOWNLOAD CV" class="header-btn1 btn-1 bold">
+                <input type="button" value="ABOUT MORE" class="header-btn2 btn-1 bold">
+            </div>
+        </div>
+    </section>
+
+    <!-- section-3 -->
+
+    <section class="sec-3">
+        <h1>LATEST PORTFOLIO</h1>
+        <hr>
+        <p class="p1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, repellat itaque. Id quia molestiae aperiam
+            cupiditate perspiciatis ex, est consectetur cumque ab similique, atque voluptates et, soluta minus hic
+            tempore!
+        </p>
+        <div class="tags bold">
+            <ul>
+                <li class="inline-block pointer" onclick="change(0)">ALL PROJECTS</li>
+                <li class="l1 inline-block pointer" onclick="change(1)">WEB DESIGNING</li>
+                <li class="l1 inline-block pointer" onclick="change(2)">LOGO DESIGN</li>
+                <li class="l1 inline-block pointer" onclick="change(3)">GRAPHIC DESIGN</li>
+                <li class="l1 inline-block pointer" onclick="change(4)">UX DESIGN</li>
+                <li class="arrow more pointer inline-block invisible" onclick="togglehs()">&#10095 </li>
+                <dl class="for-tab pointer invisible" id="more">
+                    <dd onclick="change(1)">WEB DESIGNING</dd>
+                    <dd onclick="change(2)">LOGO DESIGN</dd>
+                    <dd onclick="change(3)">GRAPHIC DESIGN</dd>
+                    <dd onclick="change(4)">UX DESIGN</dd>
+                </dl>
+
+            </ul>
+        </div>
+        <div class="pics">
+            <div class="pic-1 all grid invisible">
+                <img src="./images/web2.jpeg" class="pointer trans">
+                <img src="./images/web1.jpeg" class="pointer trans">
+                <img src="./images/web3.jpeg" class="pointer trans">
+                <img src="./images/web4.jpeg" class="pointer trans">
+                <img src="./images/logo.jpeg" class="pointer trans">
+                <img src="./images/logo2.jpeg" class="pointer trans">
+                <img src="./images/graph2.jpeg" class="pointer trans">
+                <img src="./images/graph3.jpeg" class="pointer trans">
+                <img src="./images/graph4.jpeg" class="pointer trans">
+                <img src="./images/graph6.jpeg" class="pointer trans">
+                <img src="./images/ux.png" class="pointer trans">
+            </div>
+            <div class="pic-1 web grid ">
+                <img src="./images/web2.jpeg" class="web2 trans pointer">
+                <img src="./images/web1.jpeg" class="web1 trans pointer">
+                <img src="./images/web3.jpeg" class="web2 trans pointer">
+                <img src=./images/web3.jpeg class="web4 trans pointer">
+            </div>
+            <div class="pic-1 logo grid invisible">
+                <img src="./images/logo.jpeg" class="pointer trans">
+                <img src="./images/logo2.jpeg" class="pointer trans">
+            </div>
+            <div class="pic-1 graphic grid invisible">
+                <img src="./images/graph2.jpeg" class="graphic1 pointer trans">
+                <img src="./images/graph3.jpeg" class="graphic2 pointer trans">
+                <img src="./images/graph4.jpeg" class="graphic3 pointer trans">
+                <img src="./images/graph6.jpeg" class="graphic4 pointer trans">
+            </div>
+            <div class="pic-1 ux invisible">
+                <img src="./images/ux.png" class="pointer trans">
+            </div>
+        </div>
+    </section>
+
+    <!-- section-4 -->
+
+    <section class="sec-4">
+        <div class="inner-sec">
+            <h1>MY SKILLS</h1>
+            <hr>
+            <p class="p1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquid suscipit quas, iusto
+                inventore assumenda odit animi perferendis et debitis voluptatem temporibus aspernatur facere maiores
+                facilis? Alias expedita temporibus reiciendis.
+            </p>
+            <div class="progress grid">
+                <div class="bar-1">
+                    <p class="p2 inline-block">Graphic design</p>
+                    <p class="p3 float-r">80%</p>
+                    <div class="bar">
+                        <div class="inner-bar-80"></div>
+                    </div>
+                </div>
+                <div class="bar-2">
+                    <p class="p2 inline-block">Web development</p>
+                    <p class="p3 float-r">40%</p>
+                    <div class="bar">
+                        <div class="inner-bar-40"></div>
+                    </div>
+                </div>
+                <div class="bar-3">
+                    <p class="p2 inline-block">HTML</p>
+                    <p class="p3 float-r">90%</p>
+                    <div class="bar">
+                        <div class="inner-bar-90"></div>
+                    </div>
+                </div>
+                <div class="bar-4">
+                    <p class="p2 inline-block">CSS</p>
+                    <p class="p3 float-r">50%</p>
+                    <div class="bar">
+                        <div class="inner-bar-50"></div>
+                    </div>
+                </div>
+                <div class="bar-5">
+                    <p class="p2 inline-block">Javascript</p>
+                    <p class="p3 float-r">40%</p>
+                    <div class="bar">
+                        <div class="inner-bar-40"></div>
+                    </div>
+                </div>
+                <div class="bar-6">
+                    <p class="p2 inline-block">React</p>
+                    <p class="p3 float-r">50%</p>
+                    <div class="bar">
+                        <div class="inner-bar-50"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-5 -->
+
+    <section class="sec-5">
+        <h1>MY BEST SERVICES</h1>
+        <hr>
+        <p class="p1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dignissimos asperiores soluta illum quas
+            facilis nesciunt maxime ullam commodi hic maiores odit quis fuga sequi, quasi tenetur sapiente corrupti vel?
+        </p>
+        <div class="boxes grid">
+            <div class="box-1 trans pointer">
+                <i class="fa-sharp fa-solid fa-pen-nib"></i>
+                <h4 class="text-center">WEB DESIGNING</h4>
+                <p class="p2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ad, dolores
+                    necessitatibus vero amet itaque aperiam velit mollitia voluptatem vitae explicabo enim, sequi quo
+                    voluptatibus iste quod tempora accusamus eos.</p>
+            </div>
+            <div class="box-1 trans pointer">
+                <i class="fa-regular fa-calendar-days"></i>
+                <h4 class="text-center">WEB DEVELOPMENT</h4>
+                <p class="p2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ad, dolores
+                    necessitatibus vero amet itaque aperiam velit mollitia voluptatem vitae explicabo enim, sequi quo
+                    voluptatibus iste quod tempora accusamus eos.</p>
+            </div>
+            <div class="box-1 trans pointer">
+                <i class="fa-solid fa-car"></i>
+                <h4 class="text-center">MARKETING</h4>
+                <p class="p2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ad, dolores
+                    necessitatibus vero amet itaque aperiam velit mollitia voluptatem vitae explicabo enim, sequi quo
+                    voluptatibus iste quod tempora accusamus eos.</p>
+            </div>
+            <div class="box-1 trans pointer">
+                <i class="fa-solid fa-camera-retro"></i>
+                <h4 class="text-center">PHOTOGRAPHY</h4>
+                <p class="p2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ad, dolores
+                    necessitatibus vero amet itaque aperiam velit mollitia voluptatem vitae explicabo enim, sequi quo
+                    voluptatibus iste quod tempora accusamus eos.</p>
+            </div>
+            <div class="box-1 trans pointer">
+                <i class="fa-regular fa-copy"></i>
+                <h4 class="text-center">COPY PASTE</h4>
+                <p class="p2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ad, dolores
+                    necessitatibus vero amet itaque aperiam velit mollitia voluptatem vitae explicabo enim, sequi quo
+                    voluptatibus iste quod tempora accusamus eos.</p>
+            </div>
+            <div class="box-1 trans pointer">
+                <i class="fa-sharp fa-solid fa-pen-nib"></i>
+                <h4 class="text-center">WEB DESIGNING</h4>
+                <p class="p2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ad, dolores
+                    necessitatibus vero amet itaque aperiam velit mollitia voluptatem vitae explicabo enim, sequi quo
+                    voluptatibus iste quod tempora accusamus eos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-6 -->
+
+    <section class="sec-6">
+        <img src="./images/graph6.jpeg" alt="" class="absolute">
+        <div class="inner-sec-6 flex">
+            <div class="box text-center">
+                <h1 class="text-center">243+</h1>
+                <p class="p1 text-center">HAPPY CLIENTS</p>
+            </div>
+            <div class="box text-center">
+                <h1 class="text-center">243+</h1>
+                <p class="p1 text-center">ALL OUR WORK</p>
+            </div>
+            <div class="box text-center">
+                <h1 class="text-center">243+</h1>
+                <p class="p1 text-center">RUNNING WORK</p>
+            </div>
+            <div class="box text-center">
+                <h1 class="text-center">243+</h1>
+                <p class="p1 text-center">OUR COMPETITION</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-7 -->
+
+    <section class="sec-7">
+        <h1>OUR CLIENT FEEDBACKS</h1>
+        <hr>
+        <p class="p1">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime officia enim nesciunt, debitis suscipit
+            expedita vero, numquam cum, omnis temporibus ex sint delectus dolore magni incidunt alias labore fuga dicta.
+        </p>
+        <div class="box grid">
+            <div class="comment">
+                <h3>Very good and very usefull</h3>
+                <hr>
+                <p class="p2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, cupiditate animi natus quos
+                    ratione ex officia optio recusandae ipsa. Facilis, cumque tenetur obcaecati omnis nisi voluptas iure
+                    earum perspiciatis? Quidem.
+                </p>
+                <div class="id flex">
+                    <div class="img"></div>
+                    <p class="p3 bold">Sanyam</p>
+                </div>
+            </div>
+            <div class="comment">
+                <h3>Very good and very usefull</h3>
+                <hr>
+                <p class="p2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, cupiditate animi natus quos
+                    ratione ex officia optio recusandae ipsa. Facilis, cumque tenetur obcaecati omnis nisi voluptas iure
+                    earum perspiciatis? Quidem.
+                </p>
+                <div class="id flex">
+                    <div class="img"></div>
+                    <p class="p3 bold">Sanyam</p>
+                </div>
+            </div>
+            <div class="comment-1">
+                <h3>Very good and very usefull</h3>
+                <hr>
+                <p class="p2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, cupiditate animi natus quos
+                    ratione ex officia optio recusandae ipsa. Facilis, cumque tenetur obcaecati omnis nisi voluptas iure
+                    earum perspiciatis? Quidem.
+                </p>
+                <div class="id flex">
+                    <div class="img"></div>
+                    <p class="p3 bold">Sanyam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-8 -->
+
+    <section class="sec-8">
+        <h1>LATEST UPDATES</h1>
+        <hr>
+        <p class="p1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo tempore ducimus nulla reprehenderit neque
+            accusamus necessitatibus non eum ullam? Cupiditate molestiae perspiciatis, temporibus deleniti veritatis
+            exercitationem aliquid expedita voluptas deserunt.
+        </p>
+        <div class="box flex">
+            <div class="box-1">
+                <div class="img-box relative">
+                    <div class="img-1 absolute"></div>
+                    <div class="mp-box absolute text-center bold">3.5 MP</div>
+                    <div class="hello-box absolute text-center bold">HELLO !!!</div>
+                </div>
+                <h4>Use your reset button to change your vibration</h4>
+                <div class="p2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed laboriosam temporibus reprehenderit
+                    id. Provident blanditiis impedit aperiam, unde deserunt amet!
+                </div>
+            </div>
+            <div class="box-1">
+                <div class="img-box relative">
+                    <div class="img-2 absolute"></div>
+                    <div class="mp-box absolute text-center bold">3.5 MP</div>
+                    <div class="hello-box absolute text-center bold">HELLO !!!</div>
+                </div>
+                <h4>Use your reset button to change your vibration</h4>
+                <div class="p2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed laboriosam temporibus reprehenderit
+                    id. Provident blanditiis impedit aperiam, unde deserunt amet!
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-9 -->
+
+    <section class="sec-9">
+        <h1>GET IN TOUCH</h1>
+        <hr>
+        <p class="p1">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, accusantium nisi aperiam quos
+            reprehenderit incidunt unde doloremque maxime odit eum at obcaecati culpa quisquam eius a distinctio
+            perferendis. Numquam, vitae?
+        </p>
+        <div class="box flex">
+            <div class="left">
+                <i class="fa-solid fa-phone pointer"></i>
+                +91 987654321
+                <br>
+                <i class="fa-solid fa-envelope pointer"></i>
+                sanyammittal@coding.com
+                <br>
+                <i class="fa-solid fa-location-dot pointer"></i>
+                youtube is our home
+            </div>
+            <div class="right">
+                <input type="text" placeholder="NAME" class="input pointer">
+                <br>
+                <input type="email" placeholder="EMAIL" class="input pointer">
+                <br>
+                <input type="number" placeholder="CONTACT" class="input pointer">
+                <br>
+                <input type="text" placeholder="COMMENT" class="input pointer">
+                <br>
+                <input type="button" value="Submit" class="header-btn1 btn-1 bold">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="flex">
+        <div class="box-1">
+            <div class="logo ft float-l pointer">
+                <div class="icon inline-block bold">P</div>
+                <p class="p1 inline-block bold">PAIN</p>
+            </div>
+            <br>
+            <p class="pm1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae sed et natus quos excepturi
+                voluptatem ratione deserunt eum. Exercitationem eligendi tempora aliquid molestias officia perspiciatis
+                numquam, adipisci ducimus doloribus et?</p>
+            <p class="pm2 invisible">Lorem ipsum dolor sit, amet consectetur adipisicing elit.....</p>
+        </div>
+        <div class="box">
+            <h3>QUICK LINK</h3>
+            <dl>
+                <dd>home</dd>
+                <dd>about</dd>
+                <dd>contact</dd>
+                <dd>services</dd>
+            </dl>
+        </div>
+        <div class="box">
+            <h3>CONTACT INFO</h3>
+            <dl>
+                <dd>home</dd>
+                <dd>about</dd>
+                <dd>contact</dd>
+                <dd>services</dd>
+            </dl>
+        </div>
+        <div class="box">
+            <h3>SUPPORT LINK</h3>
+            <dl>
+                <dd>home</dd>
+                <dd>about</dd>
+                <dd>contact</dd>
+                <dd>services</dd>
+            </dl>
+        </div>
+    </footer>
+
+    <!-- navigation -->
+
+    <div class="mq-nav fixed" id="nav">
+        <div class="cross" onclick="hidenav()">
+            <i class="fa-solid fa-xmark pointer"></i>
+        </div>
+        <ul>
+            <li class="text-center pointer bold">HOME</li>
+            <li class="text-center pointer bold">ABOUT</li>
+            <li class="text-center pointer bold">FORTFOLIO</li>
+            <li class="text-center pointer bold">BLOG</li>
+            <li class="text-center pointer bold">SERVICES</li>
+            <li class="text-center pointer bold">CONTACT</li>
+        </ul>
+    </div>
+
+    <nav class="mq-header" id="navigation">
+        <div class="inner-header">
+            <div class="logo float-l pointer">
+                <div class="icon inline-block bold">P</div>
+                <p class="p1 inline-block bold">PAIN</p>
+            </div>
+            <div class="about float-l pointer">
+                <ul>
+                    <li class="inline-block bold">HOME</li>
+                    <li class="inline-block bold">ABOUT</li>
+                    <li class="inline-block bold">FORTFOLIO</li>
+                    <li class="inline-block bold">BLOG</li>
+                    <li class="inline-block bold">SERVICES</li>
+                    <li class="inline-block bold">CONTACT</li>
+                </ul>
+            </div>
+            <div class="brand float-r pointer">
+                <ul>
+                    <li class="inline-block"><i class="fa-brands fa-facebook-f"></i></li>
+                    <li class="inline-block"><i class="fa-brands fa-twitter"></i></li>
+                    <li class="inline-block"><i class="fa-brands fa-linkedin-in"></i></li>
+                    <li class="inline-block"><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="bars float-r absolute invisible pointer" onclick="shownav()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+</body>
+<script src="script.js"></script>
+
+</html>
